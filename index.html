@@ -257,25 +257,21 @@
         <!-- 画像背景レイヤー -->
         <div class="absolute inset-4 z-0 rounded-[3rem] overflow-hidden shadow-2xl bg-gray-100">
             <div class="accordion-wrapper" id="accordion-gallery">
-                <!-- 1.jpg: LOG KOTI EXPERIENCE へジャンプ -->
                 <a href="#experience" class="accordion-item">
                     <img src="images/1.jpg" alt="Gallery 1">
                     <div class="absolute inset-0 bg-black/10"></div>
                     <span class="accordion-label">STAY</span>
                 </a>
-                <!-- 2.jpg: DOME SAUNA へジャンプ -->
                 <a href="#sauna" class="accordion-item">
                     <img src="images/2.jpg" alt="Gallery 2">
                     <div class="absolute inset-0 bg-black/10"></div>
                     <span class="accordion-label">SAUNA</span>
                 </a>
-                <!-- 3.jpg: KASSEL DINNER へジャンプ -->
                 <a href="#dinner" class="accordion-item">
                     <img src="images/3.jpg" alt="Gallery 3">
                     <div class="absolute inset-0 bg-black/10"></div>
                     <span class="accordion-label">DINNER</span>
                 </a>
-                <!-- 4.jpg: ACCESS へジャンプ -->
                 <a href="#access" class="accordion-item">
                     <img src="images/4.jpg" alt="Gallery 4">
                     <div class="absolute inset-0 bg-black/10"></div>
@@ -285,7 +281,6 @@
             <div class="absolute inset-0 bg-black/15 pointer-events-none"></div>
         </div>
 
-        <!-- テキスト・ボタンレイヤー -->
         <div class="header-content px-4">
             <div class="header-text-elements text-white drop-shadow-lg">
                 <div class="inline-block bg-white/20 backdrop-blur-md px-4 py-1 rounded-full mb-6 border border-white/30">
@@ -311,7 +306,7 @@
         <div class="max-w-4xl mx-auto text-center">
             <h2 class="pop-title text-3xl md:text-4xl mb-8">
                 <span class="text-orange-500">「泊まる」</span>と<span class="text-green-600">「食べる」</span>を、<br>
-                それぞれ一番いい場所で。
+                それぞれ一番いい場所で.
             </h2>
             <div class="bg-white p-8 md:p-12 rounded-[2.5rem] shadow-xl relative">
                 <div class="absolute -top-6 -left-6 bg-orange-500 text-white w-20 h-20 rounded-full flex items-center justify-center font-black rotate-[-15deg] shadow-lg">POINT</div>
@@ -325,7 +320,6 @@
         </div>
     </section>
 
-    <!-- ID: experience -->
     <section id="experience" class="py-20 px-6">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
             <div class="md:w-1/2">
@@ -354,7 +348,6 @@
         </div>
     </section>
 
-    <!-- ID: sauna -->
     <section id="sauna" class="py-20 px-6 bg-orange-50 rounded-[3rem] mx-4 my-8">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row-reverse items-center gap-12">
             <div class="md:w-1/2">
@@ -382,7 +375,6 @@
         </div>
     </section>
 
-    <!-- ID: dinner -->
     <section id="dinner" class="py-20 px-6 bg-green-50 rounded-[3rem] mx-4">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
             <div class="md:w-1/2">
@@ -453,7 +445,6 @@
         </div>
     </section>
 
-    <!-- Customer Voice Section -->
     <section class="py-24 px-6 bg-white">
         <div class="max-w-6xl mx-auto">
             <div class="text-center mb-16">
@@ -524,8 +515,8 @@
             <h3 class="pop-title text-3xl md:text-4xl mb-12">どこにあるの？</h3>
             <div class="card-pop overflow-hidden shadow-lg">
                 <div class="bg-gray-200 aspect-video relative">
-                    <!-- Google Maps Iframe: Marked location for SUGOMoRI Resort Ikuno Highland -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3257.654217112003!2d134.81170287635676!3d35.1654178581405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3555395780a40237%3A0x7d6d3763f975d9e!2zU1VHT01vUknjg6rjgr7jg7zjg4TnlJ_ph47pq5jljp8!5e0!3m2!1sja!2sjp!4v1715843431674!5m2!1sja!2sjp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <!-- 提供された正しい地図埋め込みコード -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.4085645847645!2d134.76048487621418!3d35.17136815781296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35554329ad941637%3A0x6c190b3f5cf18a18!2zU1VHT01vUknjg6rjgr7jg7zjg4jnlJ_ph47pq5jljp_vvIhMb2dLb3Rp77yJ!5e0!3m2!1sja!2sjp!4v1772420549685!5m2!1sja!2sjp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="p-8 text-left grid md:grid-cols-2 gap-8">
                     <div>
@@ -606,7 +597,6 @@
     </footer>
 
     <script>
-        // --- 4分割アコーディオン制御（モバイルタップ用） ---
         const accordionItems = document.querySelectorAll('.accordion-item');
         const accordionWrapper = document.getElementById('accordion-gallery');
         
@@ -618,7 +608,6 @@
             });
         });
 
-        // --- スクロールアニメーション ---
         const observerOptions = { threshold: 0.1 };
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
@@ -633,7 +622,6 @@
             observer.observe(el);
         });
 
-        // --- モバイル追従CTAの表示制御 ---
         const floatingCta = document.getElementById('floating-cta');
         window.addEventListener('scroll', () => {
             if (window.scrollY > 300) {
