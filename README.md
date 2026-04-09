@@ -1,4 +1,4 @@
-# LogKotiとカッセルのコラボLP
+# LogKotiとカッセルのコラボLP（https://pub.houseinfo.jp/log_kassel/へリダイレクト）
 
 ## 概要
 * LPを作成し市場調査
